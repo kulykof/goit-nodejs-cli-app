@@ -1,0 +1,28 @@
+{
+  "name": "goit-nodejs-cli-app",
+  "version": "1.0.0",
+  "description": "nodejs-cli-app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kulykof/goit-nodejs-cli-app.git"
+  },
+  "author": "https://github.com/kulykof/goit-nodejs-cli-app",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kulykof/goit-nodejs-cli-app/issues"
+  },
+  "homepage": "https://github.com/kulykof/goit-nodejs-cli-app#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
